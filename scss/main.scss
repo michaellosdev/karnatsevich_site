@@ -1,3 +1,93 @@
-$primary-color: #272D2D;
-$secondary-color: #F75C03;
-$text-color: #E0FBFC;
+@import './resets';
+@import './variables';
+@import './glogal.scss';
+
+
+
+body {
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    color: $text-color;
+
+}
+
+/* landing styles */
+
+.landing {
+    height: 100vh;
+    background: url(../../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+    
+}
+
+.landing .line {
+    
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: $secondary-color;
+    opacity: 0.7;
+    position: relative;
+    z-index: 1;
+}
+
+.landing h1 {
+    margin-top:-5%;
+    position: relative;
+    text-align: center;
+    font-size:9vw;
+    opacity: none;
+    z-index: 2;
+}
+
+.landing h2 {
+    font-size: 2vw;
+    margin-top:-2%;
+    font-weight: map-get($font-weights, medium );
+    text-transform: uppercase;
+    margin-left:50%;
+}
+
+/* about  me styles */
+
+.about {
+    border: 2px solid white;
+    margin-top: 80px;
+    height: 100vw;
+    text-align: center;
+}
+
+
+.line_about {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100px;
+    width: 100%;
+
+}
+
+ .line_about1 {
+    height: 100px;
+    width: 25%;
+    background: $secondary-color;
+    opacity: 0.7;
+}
+
+.line_about h1 {
+    font-size: 400%;
+    width: 25%;
+    font-weight: map-get($font-weights , light );
+}
+
+.line_about2 {
+    height: 100px;
+    width: 50%;
+    background-color: $secondary-color;
+    opacity: 0.7;
+}

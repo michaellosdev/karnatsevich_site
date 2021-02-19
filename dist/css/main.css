@@ -1,1 +1,103 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: helvetica;
+}
+
+body {
+  background-color: #272D2D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #E0FBFC;
+}
+
+/* landing styles */
+.landing {
+  height: 100vh;
+  background: url(../../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-transform: uppercase;
+}
+
+.landing .line {
+  height: 100px;
+  width: 100%;
+  margin-top: 100px;
+  background-color: #F75C03;
+  opacity: 0.7;
+  position: relative;
+  z-index: 1;
+}
+
+.landing h1 {
+  margin-top: -5%;
+  position: relative;
+  text-align: center;
+  font-size: 9vw;
+  opacity: none;
+  z-index: 2;
+}
+
+.landing h2 {
+  font-size: 2vw;
+  margin-top: -2%;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 50%;
+}
+
+/* about  me styles */
+.about {
+  border: 2px solid white;
+  margin-top: 80px;
+  height: 100vw;
+  text-align: center;
+}
+
+.line_about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.line_about1 {
+  height: 100px;
+  width: 25%;
+  background: #F75C03;
+  opacity: 0.7;
+}
+
+.line_about h1 {
+  font-size: 400%;
+  width: 25%;
+  font-weight: 200;
+}
+
+.line_about2 {
+  height: 100px;
+  width: 50%;
+  background-color: #F75C03;
+  opacity: 0.7;
+}
+/*# sourceMappingURL=main.css.map */
